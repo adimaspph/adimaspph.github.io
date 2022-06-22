@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/adimaspph.github.io/",
+	base: "./",
 	publicPath:
 		process.env.NODE_ENV === "production" ? "/adimaspph.github.io/" : "/",
 	plugins: [vue()],
