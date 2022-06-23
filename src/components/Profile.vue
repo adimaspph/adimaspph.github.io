@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-32 mb-20 flex flex-wrap">
+    <section id="profile" class="mt-32 mb-20 flex flex-wrap">
         <div class="w-full flex items-center md:w-1/2 md:p-4">
             <div class="">
                 <h3 class="text-primary font-bold uppercase lg:text-xl">Hi 🖐🏻, I'm</h3>

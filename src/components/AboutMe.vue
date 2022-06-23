@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-wrap">
+    <section id="about" class="flex flex-wrap">
         <!-- about me -->
         <div class="w-full flex items-center px-0 md:w-1/2 md:p-4">
             <div>
