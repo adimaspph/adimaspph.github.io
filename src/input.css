@@ -32,7 +32,7 @@ body {
 }
 
 section {
-    @apply px-4 container md:px-8;
+    @apply container;
 }
 
 .button {

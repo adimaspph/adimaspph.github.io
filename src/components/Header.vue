@@ -5,7 +5,7 @@
             <div class="flex items-center justify-between relative">
                 <!-- Logo Container -->
                 <div class="md:px-4">
-                    <a href="#home" class="font-bold text-2xl block py-4 text-primary">
+                    <a href="#home" class="font-bold text-xl block py-4 text-primary">
                         Adimas
                     </a>
                 </div>
