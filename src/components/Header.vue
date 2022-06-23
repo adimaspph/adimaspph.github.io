@@ -28,7 +28,10 @@
                                 <a href="#about" class="hover:text-primary transition-all">About</a>
                             </li>
                             <li>
-                                <a href="#project" class="hover:text-primary transition-all">Menu 2</a>
+                                <a href="#project" class="hover:text-primary transition-all">Project</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="hover:text-primary transition-all">Contact</a>
                             </li>
                         </ul>
                     </nav>

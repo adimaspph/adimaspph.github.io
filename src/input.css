@@ -40,5 +40,10 @@ section {
 }
 
 .button {
-    @apply py-3 px-8 bg-primary rounded-lg text-white font-semibold hover:bg-blue-400 transition-all;
+    @apply py-3 px-5 bg-primary rounded-lg text-white font-medium hover:bg-blue-400 transition-all;
 }
+
+input[type="text"], input[type="email"], .input {
+    @apply block w-full px-3 py-2 placeholder-slate-400 rounded-md text-sm bg-white border border-slate-300 focus:outline-none focus:border-primary focus:ring-1 focus:ring-sky-500
+}
+
