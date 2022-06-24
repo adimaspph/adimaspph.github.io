@@ -8,11 +8,12 @@
                 <p class="py-2">Saya adalah seorang Graphic Designer dan juga UI/UX Designer, sekarang saya sedang kuliah di Universitas Indonesia jurusan Sistem Informasi. Saya telah belajar mendesain sejak awal SMA. Awal mula perjalanan saya dalam belajar desain saat membuat poster. Saat ini saya sedang belajar menjadi Frontend Developer untuk menjadi Fullstack Developer Saya adalah orang yang supel dan mudah bergaul dengan orang lain. Sangat ambisius dan bertanggung jawab dalam mengerjakan sesuatu yang telah dimulai.</p>
             </div>
         </div>
-        <div class="w-full px-0 pt-8 md:w-1/2 md:my-8 md:right-0 md:p-4 md:pl-10">
+        <div class="w-full px-0 pt-8 md:w-1/2 md:my-10 md:right-0 md:p-4 md:pl-10">
             <h4 class="font-semibold text-xl text-gray-700 lg:text-xl">Let's be friends</h4>
             <p class="py-2">Follow my social media
             </p>
-            <div class="flex gap-4 py-2">
+            <!-- icon social media -->
+            <div class="flex flex-wrap gap-4 py-2">
                 <a href="https://wa.me/081519327044" class="text-gray-400 " target="_blank">
                     <svg role="img" class="fill-current h-6 hover:scale-110 transition-all hover:text-gray-700" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Whatsapp</title>
