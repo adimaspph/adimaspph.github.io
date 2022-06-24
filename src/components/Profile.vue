@@ -4,7 +4,7 @@
             <div class="">
                 <h3 class="text-primary font-bold uppercase lg:text-xl">Hi 🖐🏻, I'm</h3>
                 <h1 class="font-black text-3xl py-1 text-gray-700 lg:text-4xl">Adimas Putra Pratama H.</h1>
-                <h2 class="font-normal py-2 text-slate-600">Last year Information System Students in Universitas Indonesia  who interested in <span class="text-primary font-semibold">Software Development</span>  and <span class="text-primary font-semibold">User Experience</span></h2>
+                <h2 class="font-normal py-2 text-slate-600">Computer Science Students who interested in <span class="text-primary font-semibold">Software Development</span>  and <span class="text-primary font-semibold">User Experience</span></h2>
                 <button class="my-4 button">Download CV</button>
             </div>
         </div>
