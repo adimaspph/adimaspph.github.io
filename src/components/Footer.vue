@@ -39,16 +39,16 @@
                     </h5>
                     <ul class="flex gap-2 flex-col mt-2">
                         <li class="">
-                            <a href="#profile" class="hover:text-white transition-all">Profile</a>
+                            <a href="/#profile" class="hover:text-white transition-all">Profile</a>
                         </li>
                         <li class="group ">
-                            <a href="#about" class="hover:text-white transition-all">About</a>
+                            <a href="/#about" class="hover:text-white transition-all">About</a>
                         </li>
                         <li>
-                            <a href="#project" class="hover:text-white transition-all">Project</a>
+                            <a href="/#project" class="hover:text-white transition-all">Project</a>
                         </li>
                         <li>
-                            <a href="#contact" class="hover:text-white transition-all">Contact</a>
+                            <a href="/#contact" class="hover:text-white transition-all">Contact</a>
                         </li>
                     </ul>
                 </div>

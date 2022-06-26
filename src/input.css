@@ -21,7 +21,7 @@ body {
 }
 
 .nav-fixed {
-    @apply fixed z-50 bg-white shadow-sm bg-opacity-60;
+    @apply fixed z-50 bg-white shadow-sm bg-opacity-80;
     backdrop-filter: blur(7px);
 }
 
@@ -57,5 +57,9 @@ input[type="text"], input[type="email"], .input {
 
 .project-title {
     @apply font-bold text-2xl;
+}
+
+.project-description{
+    @apply text-justify;
 }
 

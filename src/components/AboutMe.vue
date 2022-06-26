@@ -1,14 +1,14 @@
 <template>
     <section id="about" class="flex flex-wrap">
         <!-- about me -->
-        <div class="w-full flex items-center px-0 md:w-1/2 md:p-4">
+        <div class="w-full flex items-center px-0 md:w-2/3 md:p-4">
             <div>
                 <h3 class="text-primary font-bold uppercase lg:text-xl">About Me</h3>
                 <h2 class="font-bold text-2xl py-1 text-gray-700 lg:text-3xl">Know Me More</h2>
-                <p class="py-2">Saya adalah seorang Graphic Designer dan juga UI/UX Designer, sekarang saya sedang kuliah di Universitas Indonesia jurusan Sistem Informasi. Saya telah belajar mendesain sejak awal SMA. Awal mula perjalanan saya dalam belajar desain saat membuat poster. Saat ini saya sedang belajar menjadi Frontend Developer untuk menjadi Fullstack Developer Saya adalah orang yang supel dan mudah bergaul dengan orang lain. Sangat ambisius dan bertanggung jawab dalam mengerjakan sesuatu yang telah dimulai.</p>
+                <p class="py-2 text-justify">I am currently a student majoring in Information Systems at Universitas Indonesia. I have an experience in the field of front-end development, software engineering, and product design (UI/UX). But now, I have an interest in a career as Frontend Developer because I can combined my coding and designing skills. I have experience working on website project for client and organizations. From that experience, I have now mastered several programming language, framework, and design tools. I also have experience as a teaching assistant in several courses because I like learning dan seeking new experiences.</p>
             </div>
         </div>
-        <div class="w-full px-0 pt-8 md:w-1/2 md:my-10 md:right-0 md:p-4 md:pl-10">
+        <div class="w-full px-0 pt-8 md:m-auto md:my-8 md:p-4 md:w-fit">
             <h4 class="font-semibold text-xl text-gray-700 lg:text-xl">Let's be friends</h4>
             <p class="py-2">Follow my social media
             </p>

@@ -47,8 +47,10 @@ import { ref } from 'vue';
 const hamburger = ref()
 const menu = ref()
 function handler() {
-    hamburger.value.classList.toggle("hamburger-active")
-    menu.value.classList.toggle("hidden")
+    if (window.innerWidth < 900) {
+        hamburger.value.classList.toggle("hamburger-active")
+        menu.value.classList.toggle("hidden")
+    };
 }
 
 window.onscroll = function() {

@@ -663,10 +663,6 @@ video {
   margin-bottom: 5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .block {
   display: block;
 }
@@ -868,6 +864,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1015,7 +1015,7 @@ body {
   position: fixed;
   z-index: 50;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.6;
+  --tw-bg-opacity: 0.8;
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -1153,6 +1153,10 @@ input[type="text"]:focus,  input[type="email"]:focus,  .input:focus {
   font-weight: 700;
 }
 
+.project-description {
+  text-align: justify;
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1194,12 +1198,12 @@ input[type="text"]:focus,  input[type="email"]:focus,  .input:focus {
     position: static;
   }
 
-  .md\:right-0 {
-    right: 0px;
-  }
-
   .md\:right-4 {
     right: 1rem;
+  }
+
+  .md\:right-0 {
+    right: 0px;
   }
 
   .md\:top-16 {
@@ -1210,9 +1214,9 @@ input[type="text"]:focus,  input[type="email"]:focus,  .input:focus {
     margin: auto;
   }
 
-  .md\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .md\:mt-0 {
@@ -1227,12 +1231,22 @@ input[type="text"]:focus,  input[type="email"]:focus,  .input:focus {
     display: none;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:flex-row {
@@ -1254,10 +1268,6 @@ input[type="text"]:focus,  input[type="email"]:focus,  .input:focus {
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .md\:pl-10 {
-    padding-left: 2.5rem;
   }
 
   .md\:shadow-none {

@@ -9,11 +9,11 @@
                 <!-- <p class="text-center text-base">This is a project that I have worked on. I hope you can know me more </p> -->
                 <div class="flex flex-wrap">
                     <div class="w-full py-6 sm:px-6 md:w-1/2">
-                        <router-link to="brives" class="hover:opacity-80 transition-all">
+                        <a href="/brives" class="hover:opacity-80 transition-all">
                             <img class="my-4 rounded-sm" id="project1" src="../assets/project_brives.png" alt="Brive">
-                        </router-link>
+                        </a>
                             <h5 class="block font-semibold text-lg" for="project1">BRIVES (BTA Private E-Learning Information System)</h5>
-                            <p class="">BRIVES is a website for students who want online private tutoring in BTA. I create this website with 5 person team as technical lead for the BTA company.</p>
+                            <p class="">BRIVES is a website for students who want online private tutoring in BTA.</p>
                     </div>
                     <div class="w-full py-6 sm:px-6 md:w-1/2 ">
                         <a href="#" class="hover:opacity-80 transition-all">
