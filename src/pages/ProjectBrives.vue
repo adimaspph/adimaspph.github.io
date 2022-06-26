@@ -1,6 +1,6 @@
 <template>
     <section class="project-page">
-        <router-link to="/" class="text-sm hover:text-primary transition-all"><svg viewBox="0 0 24 24" focusable="false" class="w-4 inline-block m-auto fill-current"><path  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg> Back to Home</router-link>
+        <router-link to="/#project" class="text-sm hover:text-primary transition-all"><svg viewBox="0 0 24 24" focusable="false" class="w-4 inline-block m-auto fill-current"><path  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>Back to Project</router-link>
 
         <h2 class="mt-4 project-title">BRIVES, Online Private Tutoring Booking Website</h2>
         <div>
