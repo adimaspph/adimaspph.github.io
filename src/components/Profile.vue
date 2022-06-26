@@ -5,7 +5,8 @@
                 <h3 class="text-primary font-bold uppercase lg:text-xl">Hi 🖐🏻, I'm</h3>
                 <h1 class="font-black text-3xl py-1 text-gray-700 lg:text-4xl">Adimas Putra Pratama H.</h1>
                 <h2 class="font-normal py-2 text-slate-600">Computer Science Students who interested in <span class="text-primary font-semibold">Software Development</span>  and <span class="text-primary font-semibold">User Experience</span></h2>
-                <button class="my-4 button">Download CV</button>
+                <a href="/files/CV_AdimasPutraPratamaH.pdf" download><button class="my-4 button">Download CV</button></a>
+                
             </div>
         </div>
         <div class="w-full self-end md:w-1/2 md:mt-0 md:right-0 relative">
