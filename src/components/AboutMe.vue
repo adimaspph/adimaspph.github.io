@@ -5,7 +5,7 @@
             <div>
                 <h3 class="text-primary font-bold uppercase lg:text-xl">About Me</h3>
                 <h2 class="font-bold text-2xl py-1 text-gray-700 lg:text-3xl">Know Me More</h2>
-                <p class="py-2 text-justify">I am currently a student majoring in Information Systems at Universitas Indonesia. I have an experience in the field of front-end development, software engineering, and product design (UI/UX). But now, I have an interest in a career as Frontend Developer because I can combined my coding and designing skills. I have experience working on website project for client and organizations. From that experience, I have now mastered several programming language, framework, and design tools. I also have experience as a teaching assistant in several courses because I like learning dan seeking new experiences.</p>
+                <p class="py-2 text-justify">A hardworking, creative, and curious Information Systems student at Universitas Indonesia. Have an experience in the field of web development, software engineering, and product design (UI/UX). But now, I have an interest in a career as Frontend Developer because I can combined my coding and designing skills. I have experience working on website project for client and organizations. From that experience, I have now mastered several programming language, framework, and design tools. I also have experience as a teaching assistant in several courses because I like learning dan seeking new experiences.</p>
             </div>
         </div>
         <div class="w-full px-0 pt-8 md:m-auto md:my-8 md:p-4 md:w-fit">

@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     @apply text-gray-600;
 }
@@ -48,11 +49,11 @@ input[type="text"], input[type="email"], .input {
 }
 
 .project-page {
-    @apply mt-20 max-w-screen-sm p-4 flex flex-col gap-4;
+    @apply mt-20 max-w-screen-sm p-4 flex flex-col gap-2;
 }
 
 .project-heading {
-    @apply font-semibold text-xl;
+    @apply font-semibold text-xl mt-6;
 }
 
 .project-title {
@@ -63,3 +64,6 @@ input[type="text"], input[type="email"], .input {
     @apply text-justify;
 }
 
+.project-img {
+    @apply my-4;
+}

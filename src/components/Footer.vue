@@ -2,7 +2,7 @@
     <div class="bg-slate-900 mt-16">
         <section id="footer">
             <div class="text-gray-300 flex flex-wrap pt-4">
-                <div class="pt-8 px-8 py-4 md:m-auto">
+                <div class="pt-8 px-8 py-4 md:m-auto md:mt-0">
                     <h5 class="font-bold text-white text-lg lg:text-xl">
                         Get in touch
                     </h5>
@@ -33,22 +33,25 @@
                         </a>
                     </div>
                 </div>
-                <div class="w-fit px-8 py-4 md:m-auto">
+                <div class="w-fit px-8 py-4 md:m-auto md:pt-8">
                     <h5 class="font-bold text-white text-lg lg:text-xl">
                         Navigation
                     </h5>
                     <ul class="flex gap-2 flex-col mt-2">
                         <li class="">
-                            <a href="/#profile" class="hover:text-white transition-all">Profile</a>
+                            <router-link to="/#profile" class="hover:text-white transition-all">Profile</router-link>
                         </li>
                         <li class="group ">
-                            <a href="/#about" class="hover:text-white transition-all">About</a>
+                            <router-link to="/#about" class="hover:text-white transition-all">About</router-link>
                         </li>
                         <li>
-                            <a href="/#project" class="hover:text-white transition-all">Project</a>
+                            <router-link to="/#project" class="hover:text-white transition-all">Project</router-link>
                         </li>
                         <li>
-                            <a href="/#contact" class="hover:text-white transition-all">Contact</a>
+                            <router-link to="/#skill" class="hover:text-white transition-all">Tools & Skills</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/#contact" class="hover:text-white transition-all">Contact</router-link>
                         </li>
                     </ul>
                 </div>
