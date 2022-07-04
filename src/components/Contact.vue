@@ -27,6 +27,6 @@
 <script setup>
 
 function contactSumbit() {
-    alert("Sorry, this service isn't available now");
+    alert("Sorry, this service isn't available. For business inquiry please send email to adimas0101@gmail.com");
 }
 </script>

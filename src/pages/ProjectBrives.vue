@@ -21,6 +21,7 @@
 
         <h5 class="project-heading">Process Flow</h5>
 
+        <h6 class="project-heading-2">Requirement Gathering and Wireframe</h6>
         <p class="project-description">
             The first thing we do is meet with our client to define the requirement. After that, we create a activity diagram and site map for every feature, also low fidelity design for every page. 
         </p>
@@ -28,6 +29,7 @@
             <img src="../assets/projectBrives/lofi_design.jpg" alt="Brives Lo-Fi Design">
             <figcaption class="py-2 text-center text-sm italic">Brives Low Fidelity Design</figcaption>
         </div>
+        <h6 class="project-heading-2">Design</h6>
         <p class="project-description">
             After the client accepts our low-fidelity design, we create a design system consisting of color palettes, typography, and components like button, navbar, footer, form, and other. For color palettes, we make it similar to the BTA Group main website.
         </p>
@@ -46,6 +48,8 @@
             <img src="../assets/projectBrives/schedule_management_hifi.jpg" alt="Schedule Management High Fidelity">
             <figcaption class="py-2 text-center text-sm italic">Schedule Management High Fidelity</figcaption>
         </div>
+
+        <h6 class="project-heading-2">Backend Development</h6>
         <p class="project-description">
             We decided to use ReactJS as frontend, Spring Boot as backend, and MySQL for databases because we already learn that framework in other course subject we want implement third tier application with API as the communication bridge. Before we code backend, we create a class diagrams and database schemas to make modeling databases easier to build. 
         </p>
@@ -57,8 +61,36 @@
             <img src="../assets/projectBrives/database_schema.jpg" alt="Brive Database Schemas">
             <figcaption class="py-2 text-center text-sm italic">Brive Database Schemas</figcaption>
         </div>
+
+        <h6 class="project-heading-2">Backend Development</h6>
         <p class="project-description">
-            For the backend part, we first create data modelling with JPA, spring boot ORM (Object Relational Mapping) so we don't need to write the SQL syntax on backend. 
+            For the backend part, we first create data modelling with JPA, spring boot ORM (Object Relational Mapping) so we don't need to write the SQL syntax on backend. We separated the backend into several folders for easy maintenance and development.
+        </p>
+        <div class="project-img">
+            <img src="../assets/projectBrives/backend_folder.jpg" alt="Brive Backend Folder">
+            <figcaption class="py-2 text-center text-sm italic">Brive Backend Folder</figcaption>
+        </div>
+        <p class="project-description">
+            Model folder for data modeling, repository folder for connecting backend to the database, rest folder for API template, restcontroller for API controller, security for handling authentication and authorization (we use JWT, JSON Web Token for security), and service for data and logic processing.
+        </p>
+        <p class="project-description">
+            To manage API, we use Postman API tools. But that tools need to subscribe to create team. And then, we use Swagger API tools to manage and test API from the backend.
+        </p>
+        <div class="project-img">
+            <img src="../assets/projectBrives/brives_swagger.jpg" alt="Swagger API tools on Brives">
+            <figcaption class="py-2 text-center text-sm italic">Swagger API tools on Brives</figcaption>
+        </div>
+
+        <h6 class="project-heading-2">Frontend Development</h6>
+        <p class="project-description">
+            As technical lead, I create base components so my team can use the component repeatedly. The components include buttons, navigation bars, sidebars, forms, colors class, typography, notification, and others.
+        </p>
+        <div class="project-img">
+            <img src="../assets/projectBrives/frontend_component.jpg" alt="Brives Component">
+            <figcaption class="py-2 text-center text-sm italic">Brives Component</figcaption>
+        </div>
+        <p class="project-description">
+            
         </p>
     </section>
 </template>
