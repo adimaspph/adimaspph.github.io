@@ -12,7 +12,7 @@
                         <router-link exact to="/brives" class="hover:opacity-80 transition-all">
                             <img class="my-4 rounded-sm" id="project1" src="../assets/project_brives.png" alt="Brive">
                         </router-link>
-                            <h5 class="block font-semibold text-lg" for="project1">BRIVES (BTA Private E-Learning Information System)</h5>
+                            <h5 class="block font-semibold text-lg" for="project1">BRIVES, Online Private Tutoring Booking Website</h5>
                             <p class="">BRIVES is a website for students who want online private tutoring in BTA.</p>
                     </div>
                     <div class="w-full py-6 sm:px-6 md:w-1/2 ">

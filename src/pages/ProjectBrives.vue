@@ -62,8 +62,8 @@
             <figcaption class="py-2 text-center text-sm italic">Brives Class Diagram</figcaption>
         </div>
         <div class="project-img">
-            <img src="../assets/projectBrives/database_schema.jpg" alt="Brive Database Schemas">
-            <figcaption class="py-2 text-center text-sm italic">Brive Database Schemas</figcaption>
+            <img src="../assets/projectBrives/database_schema.jpg" alt="Brives Database Schemas">
+            <figcaption class="py-2 text-center text-sm italic">Brives Database Schemas</figcaption>
         </div>
 
         <h6 class="project-heading-2">Backend Development</h6>
@@ -72,7 +72,7 @@
         </p>
         <div class="project-img">
             <img src="../assets/projectBrives/backend_folder.jpg" alt="Brive Backend Folder">
-            <figcaption class="py-2 text-center text-sm italic">Brive Backend Folder</figcaption>
+            <figcaption class="py-2 text-center text-sm italic">Brives Backend Folder</figcaption>
         </div>
         <ul class="list-disc pl-8">
             <li>model folder for data modeling</li>
@@ -150,14 +150,13 @@
             With some feedback and revisions from clients, the website is finally complete.
         </p>
         <p class="project-description">
-            You can log in as a teacher with
+            You can login as a teacher with
         </p>
         <ul class="list-disc pl-8">
             <li>username: pengajarpengajar1</li>
             <li>password: Pengajarpengajar1</li>
         </ul>
-        <a href="http://157.245.63.146/" target="_blank"><button class="my-4 button">Visit Brives Website</button></a>
-        
+        <a class="w-fit" href="http://157.245.63.146/" target="_blank"><button class="my-4 button">Visit Brives Website</button></a>
 
     </section>
 </template>
