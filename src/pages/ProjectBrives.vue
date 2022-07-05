@@ -26,6 +26,10 @@
             The first thing we do is meet with our client to define the requirement. After that, we create a activity diagram and site map for every feature, also low fidelity design for every page. 
         </p>
         <div class="project-img">
+            <img src="../assets/projectBrives/sitemap.png" alt="Sitemap for Student">
+            <figcaption class="py-2 text-center text-sm italic">Sitemap for Student</figcaption>
+        </div>
+        <div class="project-img">
             <img src="../assets/projectBrives/lofi_design.jpg" alt="Brives Lo-Fi Design">
             <figcaption class="py-2 text-center text-sm italic">Brives Low Fidelity Design</figcaption>
         </div>
@@ -70,9 +74,14 @@
             <img src="../assets/projectBrives/backend_folder.jpg" alt="Brive Backend Folder">
             <figcaption class="py-2 text-center text-sm italic">Brive Backend Folder</figcaption>
         </div>
-        <p class="project-description">
-            Model folder for data modeling, repository folder for connecting backend to the database, rest folder for API template, restcontroller for API controller, security for handling authentication and authorization (we use JWT, JSON Web Token for security), and service for data and logic processing.
-        </p>
+        <ul class="list-disc pl-8">
+            <li>model folder for data modeling</li>
+            <li>repository folder for connecting backend to the database</li>
+            <li>rest folder for API template</li>
+            <li>restcontroller folder for API controller</li>
+            <li>security for handling authentication and authorization (we use JWT, JSON Web Token for security)</li>
+            <li>service for data and logic processing</li>
+        </ul>
         <p class="project-description">
             To manage API, we use Postman API tools. But that tools need to subscribe to create team. And then, we use Swagger API tools to manage and test API from the backend.
         </p>
@@ -83,14 +92,72 @@
 
         <h6 class="project-heading-2">Frontend Development</h6>
         <p class="project-description">
-            As technical lead, I create base components so my team can use the component repeatedly. The components include buttons, navigation bars, sidebars, forms, colors class, typography, notification, and others.
+            As technical lead, I create base components so my team can use the component repeatedly. The components includes
+            <ul class="list-disc pl-8">
+                <li>Button</li>
+                <li>Navigation Bar</li>
+                <li>Side Bar</li>
+                <li>Form</li>
+                <li>Colors</li>
+                <li>Typography</li>
+                <li>Notification</li>
+            </ul>
+            I also make web routing according to the plan that has been made previously.
         </p>
+        
         <div class="project-img">
             <img src="../assets/projectBrives/frontend_component.jpg" alt="Brives Component">
             <figcaption class="py-2 text-center text-sm italic">Brives Component</figcaption>
         </div>
         <p class="project-description">
-            
+            We use Axios react hooks to connect the frontend and backend with API. We found no significant issue while developing this CRUD (create, read, update, delete) website.
         </p>
+
+        <h6 class="project-heading-2">Deployment</h6>
+        <p class="project-description">
+            After the website development is complete, the client asks us to deploy the application on their server. With the knowledge that I learned in computer networking courses, I use SSH for remote client servers.
+        </p>
+        <p class="project-description">
+            Previously I had only deployed applications on Heroku and Netlify. This is really something new that I have never learned before. After studying deployment, I finally used NGINX to deploy the frontend and Docker for the backend. 
+        </p>
+        <div class="flex justify-center items-end">
+            <div class="project-img w-1/2">
+                <img src="https://d1rytvr7gmk1sx.cloudfront.net/wp-content/uploads/2016/07/nginxhero.jpg" alt="NGINX Logo">
+                <figcaption class="py-2 text-center text-sm italic">NGINX</figcaption>
+            </div>
+            <div class="project-img w-1/2">
+                <img src="https://miro.medium.com/max/336/1*glD7bNJG3SlO0_xNmSGPcQ.png" alt="Docker Logo">
+                <figcaption class="py-2 text-center text-sm italic">Docker</figcaption>
+            </div>
+        </div>
+        <p class="project-description">
+            After that, I made a CI/CD script so deployment can be done every each team member merges their code to the main branch.
+        </p>
+
+        <h6 class="project-heading-2">Documentation</h6>
+        <p class="project-description">
+            Finally, we create documentation for this project. The documentation made includes 
+        </p>
+        <ul class="list-disc pl-8">
+            <li>Project Documentation</li>
+            <li>User Manual</li>
+            <li>Installation Guide</li>
+            <li>Release Notes</li>
+        </ul>
+
+        <h5 class="project-heading">Result</h5>
+        <p class="project-description">
+            With some feedback and revisions from clients, the website is finally complete.
+        </p>
+        <p class="project-description">
+            You can log in as a teacher with
+        </p>
+        <ul class="list-disc pl-8">
+            <li>username: pengajarpengajar1</li>
+            <li>password: Pengajarpengajar1</li>
+        </ul>
+        <a href="http://157.245.63.146/" target="_blank"><button class="my-4 button">Visit Brives Website</button></a>
+        
+
     </section>
 </template>
