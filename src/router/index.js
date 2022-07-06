@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, } from "vue-router"
 import ProjectBrives from "../pages/ProjectBrives.vue";
 import Home from "../pages/Home.vue"
+import ProjectCompfestVue from "../pages/ProjectCompfest.vue";
 
 const routes = [
 	{
@@ -12,6 +13,11 @@ const routes = [
 		path: "/brives",
 		name: "brives",
 		component: ProjectBrives,
+	},
+	{
+		path: "/compfest",
+		name: "compfest",
+		component: ProjectCompfestVue,
 	},
 	{
 		path: "/:catchAll(.*)*",

@@ -16,11 +16,11 @@
                             <p class="">BRIVES is a website for students who want online private tutoring in BTA.</p>
                     </div>
                     <div class="w-full py-6 sm:px-6 md:w-1/2 ">
-                        <a href="#" class="hover:opacity-80 transition-all">
-                            <img class="my-4 rounded-sm" id="project1" src="../assets/project_brives.png" alt="Brive">
-                        </a>
-                            <h5 class="block font-semibold text-ls" for="project1">BRIVES</h5>
-                            <p class="">BTA Private E-Learning Information System</p>
+                        <router-link exact to="/compfest" class="hover:opacity-80 transition-all">
+                            <img class="my-4 rounded-sm" id="project1" src="../assets/projectCompfest/compfest-cover.jpg" alt="Brive">
+                        </router-link>
+                            <h5 class="block font-semibold text-ls" for="project1">COMPFEST Web Design</h5>
+                            <p class="">COMPFEST is the biggest student-led IT event in Indonesia.</p>
                     </div>
                 </div>
             </div>

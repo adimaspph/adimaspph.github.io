@@ -51,8 +51,16 @@
                     <figcaption class="text-center pt-2">Spring Boot</figcaption>
                 </div>
                 <div class="w-32 p-4">
+                    <img class="h-16 m-auto" src="https://icon-library.com/images/django-icon/django-icon-0.jpg" alt="Django">
+                    <figcaption class="text-center pt-2">Django</figcaption>
+                </div>
+                <div class="w-32 p-4">
                     <img class="h-16 m-auto" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
                     <figcaption class="text-center pt-2">Git</figcaption>
+                </div>
+                <div class="w-32 p-4">
+                    <img class="h-16 m-auto" src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="Postman">
+                    <figcaption class="text-center pt-2">Postman</figcaption>
                 </div>
             </div>
         </div>
