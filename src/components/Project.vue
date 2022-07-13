@@ -32,7 +32,7 @@
                             <p class="">Educate is a series of events dedicated to facilitate and educate STEM university students in Jabodetabek.</p>
                     </div>
                     <div class="w-full py-6 sm:px-6 md:w-1/2 ">
-                        <a target="_blank" href="https://findterest-final.herokuapp.com/" class="hover:opacity-80 transition-all">
+                        <a target="_blank" href="https://gitlab.com/adimaspph/ppw-tk-2-e5" class="hover:opacity-80 transition-all">
                             <img class="my-4 rounded-sm" id="project1" src="../assets/projectFindterest/Findterest.jpg" alt="Educare">
                         </a>
                             <h5 class="block font-semibold text-lg" for="project1">Findterest | Web Application</h5>
